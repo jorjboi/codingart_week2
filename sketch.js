@@ -13,7 +13,7 @@ function draw() {
   background(0);
 
   // dynamic diameter (10% of current canvas height)
-  let currentD = height / 10;
+  let d = height / 10;
 
   fill(255 * (1 - x / width), 255 * (x / width), 0); // from red to green
   circle(x, y, (d / width) * x); // from 0 to d
