@@ -6,7 +6,7 @@ function setup() {
 
   x = 0;
   y = height / 2;
-  d = 50;
+  d = height / 10;
 }
 
 function draw() {
@@ -16,6 +16,6 @@ function draw() {
   fill(255 * (1 - x / width), 255 * (x / width), 0); // from red to green
   circle(x, y, (d / width) * x); // from 0 to d
 
-  x += 3;
+  x += 5;
   x %= width; // loop around
 }
