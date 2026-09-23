@@ -6,7 +6,7 @@ function setup() {
 
   x = 0;
   y = height / 2;
-  d = height / 10;
+  d = height / 5;
 }
 
 function draw() {
